@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clientes</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <h2>Registro de Clientes</h2>
+
+    <input type="text" id="nombreCliente" placeholder="Nombre">
+    <br><br>
+
+    <input type="text" id="telefonoCliente" placeholder="Teléfono">
+    <br><br>
+
+    <input type="email" id="correoCliente" placeholder="Correo">
+    <br><br>
+
+    <button onclick="registrarCliente()">
+        Guardar Cliente
+    </button>
+
+    <br><br>
+
+    <table border="1" id="tablaClientes">
+        <tr>
+            <th>Nombre</th>
+            <th>Teléfono</th>
+            <th>Correo</th>
+            <th>Acciones</th>
+        </tr>
+    </table>
+
+    <script src="js/clientes.js"></script>
+
+</body>
+</html>

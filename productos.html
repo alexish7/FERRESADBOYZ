@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Productos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<h2>Gestión de Productos</h2>
+
+<input type="text" id="nombreProducto" placeholder="Nombre del producto">
+<br><br>
+
+<input type="number" id="precioProducto" placeholder="Precio">
+<br><br>
+
+<input type="number" id="stockProducto" placeholder="Existencias">
+<br><br>
+
+<button onclick="agregarProducto()">Agregar Producto</button>
+
+<br><br>
+
+<table border="1" id="tablaProductos">
+    <tr>
+        <th>Producto</th>
+        <th>Precio</th>
+        <th>Stock</th>
+        <th>Acciones</th>
+    </tr>
+</table>
+
+<script src="js/productos.js"></script>
+
+</body>
+</html>
