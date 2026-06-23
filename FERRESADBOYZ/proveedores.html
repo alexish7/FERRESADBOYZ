@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proveedores</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <h2>Registro de Proveedores</h2>
+
+    <input type="text" id="nombreProveedor" placeholder="Nombre">
+    <br><br>
+
+    <input type="text" id="telefonoProveedor" placeholder="Teléfono">
+    <br><br>
+
+    <input type="text" id="empresaProveedor" placeholder="Empresa">
+    <br><br>
+
+    <button onclick="registrarProveedor()">
+        Guardar Proveedor
+    </button>
+
+    <br><br>
+
+    <table border="1" id="tablaProveedores">
+    <tr>
+        <th>Nombre</th>
+        <th>Teléfono</th>
+        <th>Empresa</th>
+        <th>acciones</th>
+    </tr>
+</table>
+
+    <script src="js/proveedores.js"></script>
+
+</body>
+</html>

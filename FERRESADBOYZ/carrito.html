@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<h2>Carrito de Compras</h2>
+
+<select id="producto">
+    <option value="Martillo|150">Martillo - $127</option>
+    <option value="Taladro|1200">Taladro - $1200</option>
+    <option value="Destornillador|80">Destornillador - $80</option>
+    <option value="Pintura|350">Pintura - $350</option>
+    <option value="Llave Inglesa|250">Llave Inglesa - $250</option>
+    <option value="Pinzas|180">Pinzas - $180</option>
+    <option value="Serrucho|220">Serrucho - $220</option>
+    <option value="Cinta Métrica|90">Cinta Métrica - $90</option>
+    <option value="Escalera|1800">Escalera - $1800</option>
+    <option value="Caja de Herramientas|950">Caja de Herramientas - $950</option>
+</select>
+
+<input type="number" id="cantidad" placeholder="Cantidad">
+
+<button onclick="agregarCarrito()">
+    Agregar al Carrito
+</button>
+
+<br><br>
+
+<table border="1" id="tablaCarrito">
+    <tr>
+        <th>Producto</th>
+        <th>Precio</th>
+        <th>Cantidad</th>
+        <th>Subtotal</th>
+        <th>Acciones</th>
+    </tr>
+</table>
+
+<br>
+
+<h3>Total: $<span id="total">0</span></h3>
+
+<script src="js/carrito.js"></script>
+
+</body>
+</html>
